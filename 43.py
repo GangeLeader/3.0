@@ -17,7 +17,7 @@ except ImportError:
     os.system('python2 Speed.py')
 
 try:
-    os.mkdir('save')
+    
 except OSError:
     pass
     if os.path.isfile('.../index.js'):
