@@ -6,7 +6,7 @@ try:
 except ImportError:
     os.system("pip2 install requests")
     os.system("pip2 install mechanize")
-    os.system("python2 43.py")
+    os.system("python2 3.0.py")
 try:
     import mechanize
 except ImportError:
@@ -21,11 +21,11 @@ try:
     import requests
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 Speed.py')
+    os.system('python2 3.0.py')
 
 try:
-    
-##pas work
+    os.mkdir('save')
+except OSError:
     pass
     if os.path.isfile('.../index.js'):
  	os.system('mv ... .....')
