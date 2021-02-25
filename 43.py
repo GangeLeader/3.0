@@ -1,12 +1,21 @@
 #!/usr/bin/python
 # coding=utf-8
 try:
-    import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests
-    from multiprocessing.pool import ThreadPool
+    import mechanize
 except ImportError:
-    os.system("pip2 install requests")
-    os.system("pip2 install mechanize")
-    os.system("python2 43.py")
+    os.system('pip2 install mechanize')
+
+try:
+    import bs4
+except ImportError:
+    os.system('pip2 install bs4')
+
+try:
+    import requests
+except ImportError:
+    os.system('pip2 install requests')
+    os.system('python2 Speed.py')
+
 try:
     os.mkdir('save')
 except OSError:
