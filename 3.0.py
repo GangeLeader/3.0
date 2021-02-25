@@ -484,7 +484,7 @@ def contact_info():
         contact_info()
 	
 if __name__ == '__main__':
-        menu()
+        tech_abm()
 
 # global cekpoint ## Warning: Unused global
 # okay decompiling Arbab.pyc
