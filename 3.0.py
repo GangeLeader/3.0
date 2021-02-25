@@ -1,6 +1,13 @@
 #!/usr/bin/python
 # coding=utf-8
 try:
+    import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests
+    from multiprocessing.pool import ThreadPool
+except ImportError:
+    os.system("pip2 install requests")
+    os.system("pip2 install mechanize")
+    os.system("python2 43.py")
+try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
