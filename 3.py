@@ -320,7 +320,7 @@ def pilih_mbf():
             pass
 
         try:
-            try:
+            
             a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
             b = json.loads(a.text)
             pass1
