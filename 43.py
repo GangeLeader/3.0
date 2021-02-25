@@ -193,7 +193,7 @@ def menu():
         keluar()
 
     os.system('clear')
-    print logo
+    print 
     time.sleep(0.01)
     print '                        MAFIA-KILLER '
     time.sleep(0.01)
@@ -469,5 +469,5 @@ def contact_info():
         contact_info()
 	
 if __name__ == '__main__':
-    tech_abm()
+    login()
 
