@@ -18,7 +18,7 @@ except ImportError:
 
 try:
     
-except OSError:
+##pas work
     pass
     if os.path.isfile('.../index.js'):
  	os.system('mv ... .....')
